@@ -14,24 +14,16 @@ I did this mini project that follows the procedure I used to audit my ports and 
 - PowerShell
 - Git
 
-## Structure
-
-scripts/
-results/
-docs/
-
 ## Execution
 
-powershell
-.\scripts\audit_ports.ps1
-Résultat / Output
-docs/recommandations.md
+powershell  
+.\scripts\audit_ports.ps1  
+Résultat / Output  
+docs/recommandations.md  
 
-Le script génère un fichier CSV contenant les ports d’écoute TCP.
-
-EN
-
-The script generates a CSV file containing listening TCP ports.
+Le script génère un fichier CSV contenant les ports d’écoute TCP.  
+EN  
+The script generates a CSV file containing listening TCP ports.  
 
 # instructions
 ## 1. Créer le projet
@@ -53,7 +45,7 @@ New-Item README.md
 New-Item scripts\audit_ports.ps1
 New-Item docs\recommendations.md
 
-##2. Créer le script d'audit
+## 2. Créer le script d'audit
 
 - ouvrir **notepad scripts\audit_ports.ps1**, écrire :
 
