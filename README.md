@@ -38,9 +38,6 @@ EN
 The script generates a CSV file containing listening TCP ports.
 
 # instructions
-
-# Commandes
-
 ## 1. Créer le projet
 
 Ouvre PowerShell :
@@ -61,38 +58,32 @@ New-Item scripts\audit_ports.ps1
 New-Item docs\recommendations.md
 
 ##2. Créer le script d'audit
-Ouvre : notepad scripts\audit_ports.ps1
 
-Colle :
+- ouvrir **notepad scripts\audit_ports.ps1**, écrire :
 
 Get-NetTCPConnection -State Listen |
 Select-Object LocalAddress, LocalPort |
 Sort-Object LocalPort |
 Export-Csv ".\results\ports.csv" -NoTypeInformation
-Enregistre.
 
-3. Exécuter le script
+- Enregistrer
+
+## 3. Exécuter le script
+
+.\scripts\audit_ports.ps1
+
 Si l'exécution est bloquée :
 
 Set-ExecutionPolicy -Scope Process Bypass
 
-Puis :
 
-.\scripts\audit_ports.ps1
+Le fichier sera généré a l'emplacement  **results\ports.csv**
 
-Le fichier :
 
-results\ports.csv
-
-sera généré.
 
 ## 4. Vérifier les résultats
-Afficher le contenu :
 
-Import-Csv .\results\ports.csv
-
-Ou :
-notepad .\results\ports.csv
+Afficher le contenu : **Import-Csv .\results\ports.csv** ou **cat .\results\ports.csv**
 
 ## 5. Identifier les services associés aux ports
 Lister les ports :
@@ -100,6 +91,7 @@ Lister les ports :
 Get-NetTCPConnection -State Listen |
 Sort-Object LocalPort |
 Format-Table LocalAddress,LocalPort
+
 Exemple :
 
 135  -> RPC
@@ -108,7 +100,7 @@ Exemple :
 80   -> HTTP
 443  -> HTTPS
 
-enfin, applique les recommandations conseillées
+enfin, applique les recommandations conseillées par l'ANSSI
 
 # Compétences / Skills
 
