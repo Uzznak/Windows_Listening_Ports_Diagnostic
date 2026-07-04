@@ -1,14 +1,12 @@
 # Mini projet - Windows Listening Ports Audit
 
-Following the purchase of a new PC, I performed an auto-diagnostic of my ports.
-
-I did this mini project that follows the procedure I used to audit my ports and identify what to secure. The ports are fictitious.
+Suite à l'achat d'un nouveau PC j'ai refais un auto diagnostique de mes ports.
+J'ai fait ce mini projet qui reprend la procédure que j'ai utilisé pour faire l'audit de mes ports, et identifier quoi sécuriser. Les ports sont fictifs.
 
 EN
+Following the purchase of a new PC, I performed an auto-diagnostic of my ports.
+I did this mini project that follows the procedure I used to audit my ports and identify what to secure. The ports are fictitious.
 
-Identify listening TCP ports on a Windows workstation and provide security recommendations.
-
-Ports are not real ones.
 
 ## Environment
 
@@ -98,7 +96,8 @@ Exemple :
 80   -> HTTP
 443  -> HTTPS
 
-enfin, applique les recommandations conseillées par l'ANSSI
+enfin, applique les recommandations conseillées par l'ANSSI 
+
 
 # Compétences / Skills
 
@@ -109,11 +108,13 @@ Audit de sécurité
 Git/GitHub  
 
 EN
-Windows Administration
-PowerShell
-Infrastructure Security
-Security Auditing
-Git/GitHub
+Windows Administration  
+PowerShell  
+Infrastructure Security  
+Security Auditing  
+Git/GitHub  
 
+# Sources
 
+https://messervices.cyber.gouv.fr/documents-guides/recommandations-sur-la-s%C3%A9curisation-des-syst%C3%A8mes-de-contr%C3%B4le-d_acces-physique-et-vid%C3%A9oprotection-v2.2.pdf
 
