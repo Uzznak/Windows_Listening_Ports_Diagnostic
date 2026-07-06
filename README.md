@@ -1,4 +1,4 @@
-# Mini projet - Windows Listening Ports Audit
+# Windows Listening Ports Audit
 
 Suite à l'achat d'un nouveau PC j'ai refais un auto diagnostique de mes ports.  
 J'ai fait ce mini projet qui reprend la procédure que j'ai utilisé pour faire l'audit de mes ports, et identifier quoi sécuriser. Les ports sont fictifs.
