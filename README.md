@@ -49,9 +49,9 @@ Si l’exécution est bloquée :
   
 Import-Csv .\results\ports.csv  ou  cat .\results\ports.csv  
 
-# 4. Analyse des ports / Port analysis  
+## 4. Analyse des ports / Port analysis  
 
-## 🇫🇷 Interpréter les résultats  
+### 🇫🇷 Interpréter les résultats  
 - **135, 139, 445** : Services Windows (RPC, NetBIOS, SMB).  
   À bloquer sur interface publique.  
 - **80, 443** : Services web.  
